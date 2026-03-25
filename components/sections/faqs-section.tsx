@@ -33,12 +33,12 @@ const faqs = [
       "We're here to bring your ideas to life. If you have a particular sky in mind, let us know and our team will match your vision with advanced editing techniques. You can also upload your preferred sky reference.",
   },
   {
-    question: "How does Enzo Editing process payment?",
+    question: "How does Charm Studio process payment?",
     answer:
       "We process payments via PayPal, with flexible billing options - daily, weekly, or per project basis depending on your needs.",
   },
   {
-    question: "What makes Enzo Editing different from the rest?",
+    question: "What makes Charm Studio different from the rest?",
     answer:
       "We’re not just a team - we’re your partners in success. We blend creativity, strategy, and professionalism to make your photos stand out.",
   },

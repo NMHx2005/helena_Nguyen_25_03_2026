@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronRight, Clock3, Mail, Phone } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
@@ -49,11 +50,13 @@ export function SiteFooter() {
             <div className="grid gap-10 lg:grid-cols-[1fr_auto]">
               {/* Brand block */}
               <div className="max-w-xs">
-                <h2 className="text-[clamp(2.8rem,8vw,5.5rem)] font-bold leading-none tracking-[-0.06em] text-[#f15533]">
-                  Enzo
-                  <br />
-                  Editing
-                </h2>
+                <Image
+                  src="/images/logo/logo.jpg"
+                  alt="Charm Studio logo"
+                  width={280}
+                  height={120}
+                  className="h-auto w-[min(100%,220px)] rounded-md object-contain"
+                />
                 <p className="mt-4 text-sm leading-relaxed text-white/50">
                   Where great edits sell great homes.
                 </p>
@@ -144,7 +147,7 @@ export function SiteFooter() {
           {/* Bottom bar */}
           <div className="flex flex-col items-center justify-between gap-2 border-t border-white/10 px-8 py-4 sm:flex-row sm:px-10 lg:px-12">
             <p className="text-xs text-white/30">
-              © {new Date().getFullYear()} Enzo Editing. All rights reserved.
+              © {new Date().getFullYear()} Charm Studio. All rights reserved.
             </p>
             <p className="text-xs text-white/20">Real estate photo editing · Vietnam</p>
           </div>

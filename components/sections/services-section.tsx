@@ -37,9 +37,9 @@ const services: ServiceCard[] = [
     sampleUrl:
       "https://drive.google.com/drive/folders/1xSzCCOrG56cahC3yuSsiW1bK7WU1lyQI?usp=drive_link",
     beforeImage:
-      "https://framerusercontent.com/images/98cqIV92BWLHGtzoXC7QEWcQBfY.jpg?width=6000&height=4000",
+      "/images/before-after/Photo_before.dng",
     afterImage:
-      "https://framerusercontent.com/images/6R8jLUp32bru3w0rfZN0vrv76cg.jpg?width=2048&height=1365",
+      "/images/before-after/Photo_After.jpg",
   },
   {
     title: "Day to Dusk",
@@ -124,11 +124,28 @@ const services: ServiceCard[] = [
     items: ["Remove Items", "Extend Background", "Virtual Cleaning"],
     sampleUrl:
       "https://drive.google.com/drive/folders/1D_rvd3GEWy5ikCxQ_RxDGQcQZBqnt8uj?usp=drive_link",
-    beforeImage:
-      "https://framerusercontent.com/images/SUWqD3eiDK0vlSHCDHfBvJeXoo.jpg?scale-down-to=1024&width=5040&height=3360",
-    afterImage:
-      "https://framerusercontent.com/images/CwbfsQp9RfM4tJHcb4mSvFciXs.jpg?scale-down-to=1024&width=5040&height=3360",
+    beforeImage: "/images/before-after/Before_clean.jpg",
+    afterImage: "/images/before-after/After_clean.jpg",
     reverse: true,
+  },
+  {
+    title: "Virtual Staging",
+    description:
+      "Afraid that virtual staging will look fake? Don\u2019t like floating furniture? Neither do we! We use cutting edge technology combined with the latest staging techniques to ensure your finished image is photo realistic to the eye. Techniques including advanced lighting, shadowing and micro textures are all seamlessly blended together so your finished image looks as if it was traditionally staged.",
+    items: [
+      "Living Room",
+      "Bedroom",
+      "Kitchen",
+      "Dining Room",
+      "Office",
+      "Outdoor / Patio",
+    ],
+    sampleUrl:
+      "https://drive.google.com/drive/folders/1VGSeFYmMZq4bhNHpprZbf7zCHmBNjUlr?usp=drive_link",
+    beforeImage:
+      "/images/before-after/Before_staging.jpg",
+    afterImage:
+      "/images/before-after/After_staging.jpg",
   },
 ];
 
@@ -232,8 +249,8 @@ function ServiceCard({ item, index }: { item: ServiceCard; index: number }) {
       className="rounded-[26px] border border-black/10 bg-white p-4 shadow-[0_2px_20px_rgba(0,0,0,0.04)] sm:p-5 dark:border-white/15 dark:bg-card/80"
     >
       <div
-          className={cn(
-            "grid gap-6 lg:items-stretch",
+        className={cn(
+          "grid gap-6 lg:items-stretch",
           item.reverse ? "lg:grid-cols-[1.05fr_0.95fr]" : "lg:grid-cols-[0.95fr_1.05fr]",
         )}
       >
@@ -260,7 +277,7 @@ function ServiceCard({ item, index }: { item: ServiceCard; index: number }) {
           <SampleButton href={item.sampleUrl} />
         </div>
 
-          <div className={cn("lg:min-h-[320px]", item.reverse && "lg:order-1")}>
+        <div className={cn("lg:min-h-[320px]", item.reverse && "lg:order-1")}>
           <BeforeAfterImage
             beforeImage={item.beforeImage}
             afterImage={item.afterImage}

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Enzo Editing | Real Estate Photo & Video Editing",
+  title: "Charm Studio | Real Estate Photo & Video Editing",
   description:
     "Professional real estate photo and video editing services for agents, photographers, and studios.",
 };

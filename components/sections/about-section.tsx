@@ -32,18 +32,19 @@ export function AboutSection() {
 
           <article className="rounded-[28px] border border-black/10 bg-white p-4 shadow-[0_2px_20px_rgba(0,0,0,0.04)] sm:p-6 dark:border-white/15 dark:bg-card/80">
             <div className="grid gap-6 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
-              <div className="relative mx-auto aspect-square w-full max-w-[460px] overflow-hidden rounded-[24px]">
+              <div className="relative mx-auto aspect-3/4 w-full max-w-[400px] overflow-hidden rounded-[24px] bg-muted/20">
                 <Image
-                  src="https://framerusercontent.com/images/yH1xg7UD3r2rwD5EPSzJ27lQ6IQ.jpg?width=1651&height=1657"
-                  alt="About Enzo Editing"
+                  src="/images/logo/user_studio.png"
+                  alt="About Charm Studio"
                   fill
-                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  className="object-cover object-top"
                 />
               </div>
 
               <div className="space-y-4 lg:space-y-5">
                 <p className="text-lg font-medium leading-relaxed text-[#f15533] sm:text-xl">
-                  At Enzo Editing,
+                  At Charm Studio,
                 </p>
                 <p className="text-base leading-relaxed text-[rgb(15,15,15)] dark:text-foreground/90 sm:text-lg">
                   Our mission is simple: to help your listings stand out in a competitive market.
@@ -56,7 +57,7 @@ export function AboutSection() {
                   architects, and media teams across the globe.
                 </p>
                 <p className="pt-2 text-2xl font-semibold italic text-[#f15533] sm:text-3xl">
-                  Enzo Editing
+                  Charm Studio
                 </p>
               </div>
             </div>

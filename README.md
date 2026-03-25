@@ -1,4 +1,4 @@
-# Enzo Editing Landing Page
+# Charm Studio Landing Page
 
 High-end portfolio and landing page for real estate photo and video editing services.
 

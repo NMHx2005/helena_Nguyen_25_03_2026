@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Moon, Sun, Menu } from "lucide-react";
 import { useTheme } from "next-themes";
@@ -44,10 +45,17 @@ export function Navbar() {
         <Container className="flex h-[var(--navbar-height)] items-center justify-between">
           <Link
             href="/"
-            className="text-sm font-semibold tracking-[0.2em] uppercase"
-            aria-label="Enzo Editing home"
+            className="inline-flex items-center"
+            aria-label="Charm Studio home"
           >
-            Enzo Editing
+            <Image
+              src="/images/logo/logo.jpg"
+              alt="Charm Studio logo"
+              width={140}
+              height={42}
+              className="h-9 w-auto rounded-sm object-contain"
+              priority
+            />
           </Link>
 
           <div className="hidden items-center gap-0.5 lg:gap-1 md:flex">
@@ -55,7 +63,7 @@ export function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={buttonVariants({ variant: "ghost", size: "sm" })}
+                className={buttonVariants({ variant: "ghost", size: "sm" }) + " text-sm font-semibold tracking-[0.2em] uppercase"}
               >
                 {item.label}
               </Link>
@@ -90,8 +98,14 @@ export function Navbar() {
               </SheetTrigger>
               <SheetContent side="right" className="w-[320px]">
                 <SheetHeader>
-                  <SheetTitle className="text-left text-xs tracking-[0.2em] uppercase">
-                    Enzo Editing
+                  <SheetTitle className="text-left">
+                    <Image
+                      src="/images/logo/logo.jpg"
+                      alt="Charm Studio logo"
+                      width={132}
+                      height={40}
+                      className="h-8 w-auto rounded-sm object-contain"
+                    />
                   </SheetTitle>
                 </SheetHeader>
                 <div className="mt-10 flex flex-col gap-2">

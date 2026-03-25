@@ -11,10 +11,8 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 /** Mirrors Enzo hero media sources (replace with your own assets later). */
-const HERO_IMG_1 =
-  "https://framerusercontent.com/images/KOyxCKCTWfRYrCI64A3aIQS0bR4.jpg?scale-down-to=1024&width=4398&height=3986";
-const HERO_IMG_2 =
-  "https://framerusercontent.com/images/2wC4hFoJouEkTdABCjCIh4D8U.jpg?width=2048&height=3072";
+const HERO_IMG_1 = "/images/hero/20260323-EF1_1060.jpg";
+const HERO_IMG_2 = "/images/hero/20260323-EF1_1067.jpg";
 const HERO_VIDEO_SRC =
   "https://framerusercontent.com/assets/s8NH38u1I51KR6uS5OsGh2Srs.mp4";
 const WORK_DRIVE_URL =
@@ -252,7 +250,7 @@ export function Hero() {
               variants={itemVariants}
               className="mt-5 max-w-lg text-pretty text-base leading-relaxed text-[rgb(20,20,20)]/85 dark:text-muted-foreground sm:text-lg"
             >
-              At Enzo Editing, we craft compelling real estate imagery and videos
+              At Charm Studio, we craft compelling real estate imagery and videos
               tailored to help your listings shine and sell.
             </motion.p>
 
