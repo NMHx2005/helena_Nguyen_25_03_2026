@@ -13,9 +13,12 @@ const navLinks = [
 ] as const;
 
 const socialLinks = [
-  { label: "Facebook", href: "https://www.facebook.com/enzophotoediting" },
-  { label: "Instagram", href: "https://www.instagram.com/enzophotoediting/" },
-  { label: "Youtube", href: "https://www.youtube.com/@EnzoPhotoEditing" },
+  { label: "Facebook", href: "https://www.facebook.com/share/1CNsv7KetL/" },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/charmstudio2301?igsh=MTV2a2t1ZTV0ZGI1OA==",
+  },
+  { label: "Youtube", href: "#" },
 ] as const;
 
 function FooterLink({
