@@ -37,9 +37,9 @@ const services: ServiceCard[] = [
     sampleUrl:
       "https://drive.google.com/drive/folders/1xSzCCOrG56cahC3yuSsiW1bK7WU1lyQI?usp=drive_link",
     beforeImage:
-      "/images/before-after/Photo_before.dng",
+      "https://framerusercontent.com/images/98cqIV92BWLHGtzoXC7QEWcQBfY.jpg?width=6000&height=4000",
     afterImage:
-      "/images/before-after/Photo_After.jpg",
+      "https://framerusercontent.com/images/6R8jLUp32bru3w0rfZN0vrv76cg.jpg?width=2048&height=1365",
   },
   {
     title: "Day to Dusk",
