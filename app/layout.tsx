@@ -18,6 +18,20 @@ export const metadata: Metadata = {
   title: "Charm Studio | Real Estate Photo & Video Editing",
   description:
     "Professional real estate photo and video editing services for agents, photographers, and studios.",
+  openGraph: {
+    title: "Charm Studio | Real Estate Photo & Video Editing",
+    description:
+      "Professional real estate photo and video editing services for agents, photographers, and studios.",
+    siteName: "Charm Studio",
+    type: "website",
+    url: "https://charmediting.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Charm Studio | Real Estate Photo & Video Editing",
+    description:
+      "Professional real estate photo and video editing services for agents, photographers, and studios.",
+  },
 };
 
 export default function RootLayout({

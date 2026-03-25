@@ -10,7 +10,7 @@ import { MagneticButton } from "@/components/shared/magnetic-button";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-/** Mirrors Enzo hero media sources (replace with your own assets later). */
+/** Hero media sources. */
 const HERO_IMG_1 = "/images/hero/20260323-EF1_1060.jpg";
 const HERO_IMG_2 = "/images/hero/20260323-EF1_1067.jpg";
 const HERO_VIDEO_SRC =
@@ -20,7 +20,7 @@ const WORK_DRIVE_URL =
 const SHOWREEL_YOUTUBE_URL = "https://youtu.be/uCWv-z1Rf9w";
 
 const mantraAccent = "#ff6d41";
-/** Review row — warm orange like Enzo reference */
+/** Review row — warm orange */
 const reviewStar = "#f97316";
 const reviewText = "#ea580c";
 
@@ -227,7 +227,7 @@ export function Hero() {
 
       <Container className="pb-12 pt-[calc(var(--navbar-height)+2rem)] lg:pb-16 lg:pt-[calc(var(--navbar-height)+3rem)]">
         <div className="flex flex-col gap-12 lg:gap-16">
-          {/* Copy — full width on top (như layout Enzo) */}
+          {/* Copy — full width on top */}
           <motion.div
             variants={textVariants}
             initial="hidden"
