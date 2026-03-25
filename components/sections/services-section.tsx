@@ -35,7 +35,7 @@ const services: ServiceCard[] = [
       "HDR 3-5 Bracketing",
     ],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1xSzCCOrG56cahC3yuSsiW1bK7WU1lyQI?usp=drive_link",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "https://framerusercontent.com/images/98cqIV92BWLHGtzoXC7QEWcQBfY.jpg?width=6000&height=4000",
     afterImage:
@@ -55,7 +55,7 @@ const services: ServiceCard[] = [
       "Custom Sample",
     ],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1gd3dguAn51Pa5EY81sLhENgPodkwBXW0?usp=drive_link",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "https://framerusercontent.com/images/OKlVYgzeNkbc9B9qsAhl7EdCCSM.jpg?scale-down-to=1024&width=6000&height=4000",
     afterImage:
@@ -74,7 +74,8 @@ const services: ServiceCard[] = [
       "Customized Styles",
       "Multi Exposures",
     ],
-    sampleUrl: "https://enzophotoediting.mypixieset.com/",
+    sampleUrl:
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "https://framerusercontent.com/images/PErEiEXoZZh830LKX3hRtf5ZaU.jpg?scale-down-to=1024&width=6000&height=4000",
     afterImage:
@@ -93,7 +94,7 @@ const services: ServiceCard[] = [
       "Combined Video",
     ],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1AvRFXKaMeS0vhTStJEr35rwoNh9WMgQB",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "https://framerusercontent.com/images/BRU0IEwHzs6McRwYmldSm3rCqaQ.png?scale-down-to=1024&width=2430&height=1229",
     reverse: true,
@@ -111,7 +112,7 @@ const services: ServiceCard[] = [
       "TV Screen / Window Replacement",
     ],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1xdmCsw5JweiDogUZrHvPYItm1B0FRmYt?usp=drive_link",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "https://framerusercontent.com/images/gVsbA9UAstb1X4rsS22vEymwBE.jpg?scale-down-to=1024&width=3926&height=2640",
     afterImage:
@@ -123,7 +124,7 @@ const services: ServiceCard[] = [
       "We remove clutter and distracting details while preserving natural lighting, shadows, and texture for seamless results.",
     items: ["Remove Items", "Extend Background", "Virtual Cleaning"],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1D_rvd3GEWy5ikCxQ_RxDGQcQZBqnt8uj?usp=drive_link",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage: "/images/before-after/Before_clean.jpg",
     afterImage: "/images/before-after/After_clean.jpg",
     reverse: true,
@@ -141,7 +142,7 @@ const services: ServiceCard[] = [
       "Outdoor / Patio",
     ],
     sampleUrl:
-      "https://drive.google.com/drive/folders/1VGSeFYmMZq4bhNHpprZbf7zCHmBNjUlr?usp=drive_link",
+      "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg",
     beforeImage:
       "/images/before-after/Before_staging.jpg",
     afterImage:

@@ -16,7 +16,7 @@ const HERO_IMG_2 = "/images/hero/20260323-EF1_1067.jpg";
 const HERO_VIDEO_SRC =
   "https://framerusercontent.com/assets/s8NH38u1I51KR6uS5OsGh2Srs.mp4";
 const WORK_DRIVE_URL =
-  "https://drive.google.com/drive/folders/1jc4brUwD_MfOoMWCH1iVkyTFUu4gSEVi?usp=drive_link";
+  "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg";
 const SHOWREEL_YOUTUBE_URL = "https://youtu.be/uCWv-z1Rf9w";
 
 const mantraAccent = "#ff6d41";
