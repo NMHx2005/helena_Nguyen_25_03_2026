@@ -16,7 +16,8 @@ import { cn } from "@/lib/utils";
 
 const accent = "#f15533";
 const plusGreen = "#9cd93b";
-const body = "rgb(15, 15, 15)";
+// Use theme token so numbers/labels stay readable in both light & dark.
+const body = "var(--foreground)";
 
 const stats = [
   {

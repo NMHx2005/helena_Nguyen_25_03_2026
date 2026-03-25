@@ -47,7 +47,7 @@ export function ContactSection() {
                     name="name"
                     required
                     placeholder="Name"
-                    className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm outline-none transition focus:border-black/30"
+                    className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm text-black placeholder:text-black/50 outline-none transition focus:border-black/30"
                   />
 
                   <div className="grid gap-3 sm:grid-cols-2">
@@ -56,13 +56,13 @@ export function ContactSection() {
                       name="email"
                       required
                       placeholder="Email"
-                      className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm outline-none transition focus:border-black/30"
+                      className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm text-black placeholder:text-black/50 outline-none transition focus:border-black/30"
                     />
                     <input
                       type="tel"
                       name="phone"
                       placeholder="Phone"
-                      className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm outline-none transition focus:border-black/30"
+                      className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm text-black placeholder:text-black/50 outline-none transition focus:border-black/30"
                     />
                   </div>
 
@@ -71,7 +71,7 @@ export function ContactSection() {
                     name="subject"
                     required
                     placeholder="Enter Subject"
-                    className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm outline-none transition focus:border-black/30"
+                    className="h-12 w-full rounded-2xl border border-black/10 bg-white px-4 text-sm text-black placeholder:text-black/50 outline-none transition focus:border-black/30"
                   />
 
                   <textarea
@@ -79,7 +79,7 @@ export function ContactSection() {
                     required
                     placeholder="Enter your Message"
                     rows={5}
-                    className="w-full resize-none rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm outline-none transition focus:border-black/30"
+                    className="w-full resize-none rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm text-black placeholder:text-black/50 outline-none transition focus:border-black/30"
                   />
 
                   <button
@@ -97,40 +97,40 @@ export function ContactSection() {
 
       {openNotice ? (
         <div className="fixed inset-0 z-120 grid place-items-center bg-black/55 p-4">
-          <div className="relative w-full max-w-md rounded-3xl bg-white p-6 shadow-2xl">
+          <div className="relative w-full max-w-md rounded-3xl bg-background p-6 text-foreground shadow-2xl">
             <button
               type="button"
               onClick={() => setOpenNotice(false)}
-              className="absolute right-3 top-3 inline-flex size-8 items-center justify-center rounded-full bg-black/5 text-black/70 transition hover:bg-black/10"
+              className="absolute right-3 top-3 inline-flex size-8 items-center justify-center rounded-full bg-foreground/5 text-foreground/70 transition hover:bg-foreground/10"
               aria-label="Close modal"
             >
               <X className="size-4" />
             </button>
 
-            <h3 className="text-2xl font-semibold tracking-tight text-[rgb(29,50,45)]">
+            <h3 className="text-2xl font-semibold tracking-tight">
               Contact us directly
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-[rgb(29,50,45)]/75">
+            <p className="mt-2 text-sm leading-relaxed text-foreground/75">
               For a faster response, please use one of the contact options below:
             </p>
 
             <div className="mt-5 space-y-3">
               <Link
                 href="mailto:charmstudio2301@gmail.com"
-                className="flex items-center gap-3 rounded-2xl border border-black/10 px-4 py-3 transition hover:bg-black/3"
+                className="flex items-center gap-3 rounded-2xl border border-border/10 px-4 py-3 transition hover:bg-foreground/5"
               >
                 <Mail className="size-4 text-[#f15533]" />
-                <span className="text-sm font-medium text-[rgb(29,50,45)]">charmstudio2301@gmail.com</span>
+                <span className="text-sm font-medium text-foreground">charmstudio2301@gmail.com</span>
               </Link>
 
               <Link
                 href="https://wa.me/84396807801"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 rounded-2xl border border-black/10 px-4 py-3 transition hover:bg-black/3"
+                className="flex items-center gap-3 rounded-2xl border border-border/10 px-4 py-3 transition hover:bg-foreground/5"
               >
                 <MessageCircle className="size-4 text-[#f15533]" />
-                <span className="text-sm font-medium text-[rgb(29,50,45)]">0396807801</span>
+                <span className="text-sm font-medium text-foreground">0396807801</span>
               </Link>
             </div>
           </div>

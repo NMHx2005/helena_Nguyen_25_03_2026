@@ -34,8 +34,7 @@ export default function RootLayout({
       <body className="flex min-h-dvh flex-col bg-background text-foreground">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
           disableTransitionOnChange
         >
           <SmoothScrollProvider>{children}</SmoothScrollProvider>
