@@ -17,7 +17,7 @@ const HERO_VIDEO_SRC =
   "https://framerusercontent.com/assets/s8NH38u1I51KR6uS5OsGh2Srs.mp4";
 const WORK_DRIVE_URL =
   "https://drive.google.com/drive/folders/1xs5Q1GaGJKG7zwbkkIxeSLcdJx6wgkwT?fbclid=IwY2xjawQwkUVleHRuA2FlbQIxMABicmlkETFqNEZOM2k4VkNjbWY4dEE0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjcQ_y6XUzGnnxQhYLQsDmD5GxndF7kiFaWGiG0EpNUxESePkt1eIH7h2vd1_aem_uCjWS72f94OfB_PW8_RDRg";
-const SHOWREEL_YOUTUBE_URL = "https://youtu.be/uCWv-z1Rf9w";
+const SHOWREEL_YOUTUBE_URL = "https://www.dropbox.com/scl/fo/bxhx0bou98d7efak0owae/AHh4Ee5VDhFGXJcEeG2_Jhg?e=1&fbclid=IwY2xjawR2LtFleHRuA2FlbQIxMABicmlkETFEQ0hyT0ZqZnNwQWp5STBPc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgmcoIdGI4jzAO8UUaBaogyLyV-Y_8fWcqstdIPyamFwji8QGSai1kpfqfMS_aem_Kyot8UqDu3RsSCGVvo3-sA&rlkey=hed0wxamdqtqr0ejtdkrxpt4z&st=aso6g2b5&dl=0";
 
 const mantraAccent = "#ff6d41";
 /** Review row — warm orange */
